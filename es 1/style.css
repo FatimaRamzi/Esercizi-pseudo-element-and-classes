@@ -8,3 +8,7 @@ p{
 
     margin: 0;
     font-size: 20px;}
+
+div:nth-child(even){
+    border: 2px solid red;
+}
