@@ -17,3 +17,6 @@ div:nth-child(even){
 div:nth-child(odd) p:nth-child(even){
     color:green;
 }
+div:nth-child(2) p:last-of-type{
+    color: blue;
+}
