@@ -6,9 +6,14 @@
 }
 p{
 
+    display: inline-block;
     margin: 0;
     font-size: 20px;}
 
 div:nth-child(even){
     border: 2px solid red;
+    text-decoration: none;
+}
+div:nth-child(odd) p:nth-child(even){
+    color:green;
 }
