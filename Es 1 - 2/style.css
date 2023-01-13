@@ -20,10 +20,6 @@ div:nth-child(odd) p:nth-child(even){
 div:nth-child(2) p:last-of-type{
     color: blue;
 }
-div:nth-child(6){
+div:nth-child(6) p:not(p:last-of-type){
     color:yellow;}
-
-div:nth-child(6) p:last-of-type{
-        color:black;}
-    
     
